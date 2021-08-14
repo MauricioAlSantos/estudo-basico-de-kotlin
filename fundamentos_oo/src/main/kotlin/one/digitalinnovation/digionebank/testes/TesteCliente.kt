@@ -1,7 +1,9 @@
 package one.digitalinnovation.digionebank.testes
 
+import 
 import one.digitalinnovation.digionebank.Cliente
 import one.digitalinnovation.digionebank.ClienteTipo
+//import one.digitalinnovation.digionebank.testes.TesteAutenticacao
 
 fun main() {
     val jose = Cliente(
@@ -11,7 +13,7 @@ fun main() {
         senha = "123456"
     )
 
-    println(jose)
+    println(jose.nome)
 
-    TesteAutenticacao().autentica(jose)
+    //TesteAutenticacao().autentica(jose)
 }
